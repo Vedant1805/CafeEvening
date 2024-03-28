@@ -1,0 +1,208 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #eee9e4;     */
+}
+
+.banner1 {
+
+    background-color: black;
+    height: 100%;
+}
+
+.main-img {
+    opacity: 0.5;
+    margin: 0;
+
+}
+
+.btn-about-us {
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text {
+    top: 0;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    text-align: left;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 225, 225);
+    font-size: 5rem;
+    font-family: 'Monoton';
+
+}
+
+
+.sec-text {
+    top: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    font-family: 'Monoton';
+
+}
+
+.ter-text {
+    top: 0;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    text-align: left;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    font-family: 'Monoton';
+
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+
+
+    .main-text {
+        font-size: 4rem;
+    }
+
+    .sec-text {
+        font-size: 4rem;
+    }
+
+    .ter-text {
+        font-size: 4rem;
+    }
+
+    .btn-about-us {
+        font-size: 1rem;
+        padding: 0.8rem 2rem;
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+
+
+    .main-text {
+        font-size: 3rem;
+    }
+
+    .sec-text {
+        font-size: 3rem;
+    }
+
+    .ter-text {
+        font-size: 3rem;
+    }
+}
+
+
+@media only screen and (max-width: 778px) {
+
+
+    .main-text {
+        font-size: 2rem;
+    }
+
+    .sec-text {
+        font-size: 2em;
+    }
+
+    .ter-text {
+        font-size: 2rem;
+    }
+
+    .btn-about-us {
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+.desc-heading {
+    content: "";
+    background-image: url("https://res.cloudinary.com/dx2ukhurs/image/upload/v1709365477/bg2_oxlqb2.jpg");
+    height: 50vh;
+    width: 100vw;
+    background-size: cover;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 72px;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.description {
+
+    width: 100vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+
+.desc-text {
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: normal;
+}
+
+.offers-section {
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    margin: auto;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+
+}
+
+.offers-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+
+
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*  */
+
+.offer2-img {
+    width: 40vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.offer1-img {
+    width: 40vw;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+@media only screen and (max-width: 778px) {
+    .carousel-inner img {
+        height: 30vh;
+    }
+}

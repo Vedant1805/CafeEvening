@@ -1,0 +1,38 @@
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+h2{
+    color: #c5aa6a;
+}
+
+.menu-bg{
+    
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    box-shadow: inset 100px 100px 150px 100px rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://res.cloudinary.com/dx2ukhurs/image/upload/v1709978830/menu-bg_qnrtem.jpg');
+    margin-bottom: 30px;
+    
+    
+}
+
+
+.zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  

@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+.upper {
+    background: center/cover no-repeat url(../../images/contact-bg.jpg);
+    height: 80vh;
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: inset 440px 440px 300px 10px rgb(0 0 0 / 40%);
+}
+
+.contact-bg {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    /* width: 100vw; */
+    align-items: center;
+}
+
+.contact-right a:hover {
+    color: var(--basic-color);
+}
+
+.bg-content :first-child {
+    /* color: var(--basic-color);
+    font-size: 2.7rem;
+    font-family: 'Monoton';
+    word-spacing: 0.7rem;
+    letter-spacing: 0.4rem;
+    font-family: "Pacifico", cursive;
+    font-weight: 400; */
+}
+
+.bg-content :last-child {
+    color: white;
+    font-size: 3rem;
+}
+
+/* Contact info */
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 7rem 10rem 5rem 10rem;
+}
+
+.contact-left {
+    display: flex;
+    height: 50vh;
+    width: 50%;
+    margin-right: 10rem;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact-left p {
+    color: #929191;
+    line-height: 1.8;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .contact-left h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    color: #232323;
+    font-family: 'PT Sans Narrow', sans-serif;
+} */
+
+.contact-left .restaurant :last-child {
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #232323;
+    letter-spacing: 0.680em;
+    line-height: 0.75;
+    margin-top: 1.1rem;
+}
+
+.contact-right {
+    width: 50%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.info-upper {
+    display: flex;
+    border: 2px solid var(--basic-color);
+    flex-direction: column;
+    height: 40vh;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    align-items: center;
+}
+
+.info-upper h3 {
+    width: 8rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    color: #232323;
+}
+
+.add-heading {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: flex-start;
+    /* border: 2px solid blue; */
+    align-items: center;
+}
+
+.add-heading a {
+    text-align: center;
+    font-size: 15px;
+    color: #838383;
+    line-height: 1.6;
+    margin-top: -3px;
+    /* padding: 0 10rem 0 0; */
+}
+
+.contact-right .social {
+    font-size: 1.2rem;
+    /* background-color: red; */
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+.contact-right .social a {
+    margin: 1rem;
+    color: black;
+    transition: 0.2s ease-in;
+}
+
+.contact-right .social a:hover {
+    color: var(--basic-color);
+    transform: skew(10deg);
+}
+
+.contact-map {
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .contact-info {
+        margin: 3rem 5rem;
+    }
+
+    .contact-left {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .contact-right {
+        width: 100%;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem;
+        text-align: center;
+    }
+
+    .contact-left,
+    .contact-right {
+        width: 100%;
+        margin: 0;
+    }
+
+    .info-upper {
+        height: auto;
+    }
+
+    .contact-left .restaurant :last-child {
+        font-size: 18px;
+    }
+
+    .info-upper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* align-items: center; */
+        padding: 0;
+        margin-top: 1rem;
+        border: 2px solid var(--basic-color);
+        border: none;
+    }
+
+    .info-upper h3 {
+        width: 8rem;
+        font-size: 1.2rem;
+        color: #232323;
+    }
+
+    .add-heading {
+        /* margin: 1rem 0 0 1rem; */
+        align-items: flex-start;
+        padding: 0.5rem 0 1rem 0;
+    }
+
+    .contact-right .social {
+        margin-right: 10rem;
+    }
+
+
+    .contact-right .social {
+        font-size: 1rem;
+        /* background-color: red; */
+        justify-content: center;
+        width: 100%;
+        display: flex;
+    }
+
+    .contact-right .social a {
+        /* margin: 1rem; */
+        color: black;
+        transition: 0.2s ease-in;
+    }
+
+    .contact-heading :first-child h3 {
+        margin-left: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .contact-info {
+        margin: 1rem;
+        margin-top: 5rem;
+    }
+
+    .contact-info h1 {
+        text-align: center;
+    }
+
+    .info-upper {
+        display: flex;
+        flex-direction: column;
+        height: 40vh;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 1rem;
+        margin: 0rem 10rem 0 10rem;
+        border: none;
+    }
+
+    .contact-left {
+        text-align: center;
+    }
+
+    .contact-heading {
+        align-items: center;
+        margin-top: 5rem;
+
+    }
+
+    .contact-left .restaurant :last-child {
+        font-size: 16px;
+    }
+
+    .social {
+        margin-left: 7rem;
+        padding: 0;
+    }
+}

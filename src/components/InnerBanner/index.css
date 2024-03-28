@@ -1,0 +1,25 @@
+
+.banner-heading{
+    font-size: 4rem; 
+    border-color: 'black';
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.inner-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://res.cloudinary.com/dx2ukhurs/image/upload/v1709365477/bg2_oxlqb2.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 50vh;
+    background-attachment:fixed;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 768px){
+    .banner-heading{
+        font-size: 3rem;
+    }
+}

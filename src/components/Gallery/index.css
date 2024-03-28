@@ -1,0 +1,39 @@
+.gallery-bg {
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    box-shadow: inset 100px 100px 150px 100px rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image: url('https://res.cloudinary.com/dx2ukhurs/image/upload/v1710052345/gallery-bg_tnaxzy.jpg');
+}
+
+.img-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+img {
+    width: 25rem;
+    margin: 20px;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-image: linear-gradient(to bottom, #6F4E37, white); */
+    background-color: #eee9e4;
+}
+
+@media screen and (max-width: 968px) {
+    img {
+        width: 40rem;
+        margin: 20px;
+    }
+}

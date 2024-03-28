@@ -1,0 +1,93 @@
+.welcome-container {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    text-align: center;
+}
+
+.welcome-title {
+    color: #c5aa6a;
+    font-size: 2em;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+.about-content button {
+    background-color: var(--basic-color);
+    width: 30%;
+}
+
+.about-desc {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.4rem;
+    color: rgb(76, 78, 78);
+    margin: 1rem 0;
+}
+
+.welcome-description {
+    margin-top: 0rem;
+}
+
+.btn-about-us a {
+    color: white;
+}
+
+.about-desc p {
+    margin: 2rem 0;
+
+}
+
+.welcome-banner {
+    height: 42rem;
+    width: 33rem;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 778px) {
+    .about-desc {
+        font-size: 0.8rem;
+
+        width: 80%;
+    }
+
+    .about-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .about-desc p {
+        margin-top: -17px;
+    }
+
+    .about-desc {
+        margin-top: -10px;
+    }
+
+
+    button {
+        display: flex;
+        align-self: center;
+
+    }
+
+    .welcome-banner {
+        height: 30rem;
+        width: 80%;
+    }
+}

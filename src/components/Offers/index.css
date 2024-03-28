@@ -1,0 +1,45 @@
+.offers-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.offer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 30px;
+    width: 87%
+    
+}
+
+
+.offer-img{
+    width: 35rem;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+@media screen and (max-width: 778px) {
+    .offers-section{
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .offer1{
+        width: 100%;
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .offer-img{
+        align-self: center;
+    }
+}
